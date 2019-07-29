@@ -1,0 +1,30 @@
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.page-footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 93px;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

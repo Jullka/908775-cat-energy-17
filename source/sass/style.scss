@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import "blocks/catalog.scss";
+@import "blocks/contacts.scss";
+@import "blocks/example.scss";
+@import "blocks/features.scss";
+@import "blocks/page-header.scss";
+@import "blocks/page-main.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/programs.scss";
+@import "blocks/promo.scss";
+@import "mixins.scss";
+@import "variables.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "Oswald","Arial","Helvetica",sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(68, 68, 68);
+}
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  background-color: rgb(104, 183, 56);
+  outline: 0;
+  cursor: pointer;
+}
