@@ -1,0 +1,65 @@
+.program {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 23px 20px 18px;
+  color: $font-color;
+  background-color: rgb(243, 256, 256);
+  background-repeat: no-repeat;
+}
+
+.program--slim::before {
+	content: "";
+	height: 50px;
+	position: absolute;
+	top: 27px;
+}
+
+.program--slim::before {
+	background-color: $base-color;
+	border-radius: 50%;
+	left: 22px;
+	width: 50px;
+}
+
+
+.program--pro::before {
+	background-color: $base-color;
+	border-radius: 50%;
+	content: "";
+	height: 50px;
+	left: 22px;
+	position: absolute;
+	top: 23px;
+	width: 50px;
+}
+
+.program__title {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 72px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.program__description {
+  margin: 0 0 18px;
+  padding-bottom: 23px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Arial","Helvetica",sans-serif;
+  color: rgb(68, 68, 68);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.program__link {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $font-color;
+  text-transform: uppercase;
+}
