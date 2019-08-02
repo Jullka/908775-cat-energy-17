@@ -1,0 +1,12 @@
+.programs__list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.programs__item {
+  margin-top: 20px;
+}

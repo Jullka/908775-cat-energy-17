@@ -1,0 +1,40 @@
+.promo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-image: url(../index-background-mobile@1x.jpg);
+  background-color: $base-color;
+  background-size: 100% 305px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.promo__img {
+  display: block;
+}
+
+.promo__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.promo__btn {
+  width: 100%;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.promo__content {
+  margin-top: 23px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
