@@ -1,8 +1,52 @@
 .page-header {
+  position: relative;
 	min-height: 66px;
 	width: 100%;
 }
 
 .page-header__wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  padding-bottom: 12px; 
 }
+
+.page-header__logo {
+  display: block;
+  width: 100%;
+  max-width: 190px; 
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__logo {
+    max-width: 176px; 
+  } 
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    max-width: 202px; 
+  } 
+}
+
+.page-header__btn {
+	display: none;
+}
+
+.page-header__nav {
+  display: none;
+  width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__nav {
+    display: block;
+    margin: 0;
+    width: auto; 
+  } 
+}
+
+
+  

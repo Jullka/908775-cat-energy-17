@@ -7,6 +7,19 @@
   list-style: none;
 }
 
+@media (min-width: $desktop-width) {
+  .programs__list {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
+
 .programs__item {
-  margin-top: 20px;
+	margin-top: 20px;
+}
+
+@media (min-width: $desktop-width) {
+	.programs__item {
+		width: 570px;
+	}
 }

@@ -1,4 +1,22 @@
 .main-menu {
+	display: block;
+	font-weight: 500;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+	.main-menu {
+		display: flex;
+		flex-flow: row wrap;
+		font-weight: 400;
+		justify-content: flex-end;
+	}
+}
+
+.main-menu {
   margin: 0;
   padding: 0;
   display: flex;
@@ -20,6 +38,6 @@
   padding: 6px 0;
   font-size: 18px;
   line-height: 25px;
-  color: $font-color;
+  color: $title-color;
   border-bottom: 2px solid transparent;
 }
