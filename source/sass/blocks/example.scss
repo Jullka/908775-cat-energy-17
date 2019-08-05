@@ -1,5 +1,5 @@
 .example {
-  background-color: rgb(242, 242, 242);
+  background-color: $bg-color;
   display: flex;
   flex-direction: column;
   margin-top: 22px;
@@ -7,12 +7,30 @@
   padding-top: 17px;
 }
 
+.example__container {
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .example__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example__container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
 .example__title {
   margin: 0 0 25px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
-  color: $font-color;
+  color: $title-color;
 }
 
 .example__content {
@@ -21,5 +39,5 @@
   font-size: 14px;
   line-height: 18px;
   font-family: "Arial", "Helvetica", sans-serif;
-  color: rgb(68, 68, 68);
+  color: $content-color;
 }
