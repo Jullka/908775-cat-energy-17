@@ -27,7 +27,25 @@
   }
 }
 
-.promo-container::before {
+.promo__container {
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .promo__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo__container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+.promo__container::before {
   content: "";
   position: absolute;
   left: 0;
@@ -37,17 +55,17 @@
   background-color: $base-color;
   background-position: bottom;
   background-repeat: no-repeat;
-  z-index: -1; 
+  z-index: -1;
 }
 
 @media (min-width: $tablet-width) {
-  .promo-container::before {
-    display: none; 
-  } 
+  .promo__container::before {
+    display: none;
+  }
 }
 
 @media (min-width: $desktop-width) {
-  .promo-container::before {
+  .promo__container::before {
     display: block;
     position: absolute;
     width: 50%;
@@ -58,8 +76,8 @@
     background-image: url("../img/index-background-desktop@1x.jpg");
     background-color: $base-color;
     background-repeat: no-repeat;
-    background-size: cover; 
-  } 
+    background-size: cover;
+  }
 }
 
 .promo__title {
@@ -70,18 +88,18 @@
   padding-top: 25px;
   margin-bottom: 23px;
   margin-top: 0;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
 }
 
 @media (min-width: $tablet-width) {
   .promo__title {
-    font-size: 60px; 
+    font-size: 60px;
     line-height: 60px;
     max-width: 520px;
     margin-bottom: 45px;
     text-align: left;
-    color: $title-color; 
-  } 
+    color: $title-color;
+  }
 }
 
 .promo__btn {
@@ -116,20 +134,20 @@
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   margin-bottom: 25px;
-  margin-top: 0; 
+  margin-top: 0;
 }
 
-@media (min-width: $table-width) {
+@media (min-width: $tablet-width) {
   .promo__content {
     font-size: 20px;
     line-height: 1;
     margin-bottom: 45px;
-    color: $title-color; 
-  } 
+    color: $title-color;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .promo__content {
-    margin-bottom: 50px; 
-  } 
+    margin-bottom: 50px;
+  }
 }

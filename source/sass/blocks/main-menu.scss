@@ -1,28 +1,19 @@
 .main-menu {
-	display: block;
-	font-weight: 500;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-  text-transform: uppercase;
-}
-
-@media (min-width: $tablet-width) {
-	.main-menu {
-		display: flex;
-		flex-flow: row wrap;
-		font-weight: 400;
-		justify-content: flex-end;
-	}
-}
-
-.main-menu {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .main-menu {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: 400;
+    justify-content: flex-end;
+  }
 }
 
 .main-menu__item {

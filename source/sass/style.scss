@@ -44,32 +44,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media (min-width: $tablet-width) {
-  .container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-
-@media (min-width: $desktop-width) {
-  .container {
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-}
-
-
-
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);

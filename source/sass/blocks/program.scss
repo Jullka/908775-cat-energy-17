@@ -12,62 +12,62 @@
 
 .program--slim::after,
 .program--slim::before {
-	content: "";
-	height: 50px;
-	position: absolute;
-	top: 27px;
+  content: "";
+  height: 50px;
+  position: absolute;
+  top: 27px;
 }
 
 .program--slim::before {
-	background-color: $base-color;
-	border-radius: 50%;
-	left: 22px;
-	width: 50px;
+  background-color: $base-color;
+  border-radius: 50%;
+  left: 22px;
+  width: 50px;
 }
 
 .program--pro::before {
-	background-color: $base-color;
-	border-radius: 50%;
-	content: "";
-	height: 50px;
-	left: 22px;
-	position: absolute;
-	top: 23px;
-	width: 50px;
+  background-color: $base-color;
+  border-radius: 50%;
+  content: "";
+  height: 50px;
+  left: 22px;
+  position: absolute;
+  top: 23px;
+  width: 50px;
 }
 
 @media (min-width: $tablet-width) {
-	.program {
-		margin-top: 27px;
-		padding: 78px 280px 60px 53px;
-	}
+  .program {
+    margin-top: 27px;
+    padding: 78px 280px 60px 53px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-	.program {
-		padding-right: 50px;
+  .program {
+    padding-right: 50px;
   }
-  
-	.program--slim::before {
-		height: 100px;
-		left: 51px;
-		top: 49px;
-		width: 100px;
+
+  .program--slim::before {
+    height: 100px;
+    left: 51px;
+    top: 49px;
+    width: 100px;
   }
-  
-	.program--slim::after {
-		height: 98px;
-		left: 65px;
-		top: 40px;
-		width: 71px;
+
+  .program--slim::after {
+    height: 98px;
+    left: 65px;
+    top: 40px;
+    width: 71px;
   }
-  
-	.program--pro::before {
-		height: 100px;
-		left: 51px;
-		top: 49px;
-		width: 100px;
-	}
+
+  .program--pro::before {
+    height: 100px;
+    left: 51px;
+    top: 49px;
+    width: 100px;
+  }
 }
 
 .program__title {
@@ -81,20 +81,20 @@
 }
 
 @media (min-width: $tablet-width) {
-	.program__title {
-		font-size: 36px;
-		line-height: 37px;
-		margin-bottom: 24px;
-		margin-left: 0;
-		margin-top: 0;
-	}
+  .program__title {
+    font-size: 36px;
+    line-height: 37px;
+    margin-bottom: 24px;
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
 
 @media (min-width: $desktop-width) {
-	.program__title {
-		margin-bottom: 72px;
-		margin-left: 160px;
-	}
+  .program__title {
+    margin-bottom: 72px;
+    margin-left: 160px;
+  }
 }
 
 .program__description {
@@ -108,17 +108,18 @@
 }
 
 @media (min-width: $tablet-width) {
-	.program__description {
-		border-bottom: none;
-		font-size: 16px;
-		line-height: 24px;
-		margin-bottom: 36px;
-	}
+  .program__description {
+    border-bottom: none;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 36px;
+  }
 }
+
 @media (min-width: $desktop-width) {
-	.program__description {
-		margin-bottom: 10px;
-	}
+  .program__description {
+    margin-bottom: 10px;
+  }
 }
 
 .program__link {

@@ -1,3 +1,21 @@
+.programs__container {
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .programs__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
 .programs__list {
   display: flex;
   flex-direction: column;
@@ -9,17 +27,18 @@
 
 @media (min-width: $desktop-width) {
   .programs__list {
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
 
 .programs__item {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 @media (min-width: $desktop-width) {
-	.programs__item {
-		width: 570px;
-	}
+  .programs__item {
+    width: 425px;
+  }
 }
