@@ -1,34 +1,32 @@
-.programs__container {
+.programs {
+  position: relative;
   padding: 0 20px;
 }
 
 @media (min-width: $tablet-width) {
-  .programs__container {
-    padding-left: 30px;
-    padding-right: 30px;
+  .programs {
+    padding: 0 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .programs__container {
-    padding-left: 70px;
-    padding-right: 70px;
+  .programs {
+    padding: 0 110px;
   }
 }
 
 .programs__list {
+  align-items: stretch;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 @media (min-width: $desktop-width) {
   .programs__list {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
   }
 }
@@ -39,6 +37,6 @@
 
 @media (min-width: $desktop-width) {
   .programs__item {
-    width: 425px;
+    width: 462px;
   }
 }
