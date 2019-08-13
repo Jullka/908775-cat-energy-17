@@ -4,15 +4,21 @@
 
 @media (min-width: $tablet-width) {
   .advantages__container {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .advantages__container {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 0 110px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    padding: 0 30px;
+    counter-reset: itemNum;
+    margin-bottom: 35px;
   }
 }
 
@@ -56,7 +62,6 @@
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 20px;
-  min-height: 60px;
   padding-left: 80px;
   position: relative;
 }
@@ -79,6 +84,23 @@
   }
 }
 
+@media (min-width: $tablet-width) {
+  .advantages__item::after {
+    counter-increment: itemNum;
+    content: counter(itemNum);
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    left: 120px;
+    width: 70px;
+    height: 230px;
+    font-family: "Oswald Regular", "Arial", sans-serif;
+    font-size: 281px;
+    line-height: 281px;
+    color: $bg-color;
+  }
+}
+
 .advantages__item::before {
   background-color: $base-color;
   background-position: center;
@@ -88,39 +110,31 @@
   left: 0;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   width: 60px;
+  transform: translateY(-50%);
 }
 
 @media (min-width: $tablet-width) {
   .advantages__item::before {
     height: 80px;
     top: 0;
-    transform: translateY(0);
     width: 80px;
+    transform: translateY(0);
   }
 }
 
 .advantages__item--leaf::before {
-  background-image: url(../advantage-leaf@1x.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../img/advantage-leaf@1x.png);
 }
 
 .advantages__item--powder::before {
-  background-image: url(../advantage-powder@1x.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../img/advantage-powder@1x.png);
 }
 
 .advantages__item--dining::before {
-  background-image: url(../advantage-dining@1x.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../img/advantage-dining@1x.png);
 }
 
 .advantages__item--clock::before {
-  background-image: url(../advantage-clock@1x.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../img/advantage-clock@1x.png);
 }

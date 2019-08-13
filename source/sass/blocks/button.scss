@@ -1,13 +1,46 @@
 .button {
-  display: block;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 9px;
+  align-items: center;
   background-color: $base-color;
-  outline: 0;
-  cursor: pointer;
+  border: 0;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: "Oswald", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  height: 40px;
+  justify-content: center;
+  line-height: 20px;
+  padding: 0 25px;
+  text-transform: uppercase;
+}
+
+.button:focus,
+.button:hover {
+  background-color: rgb(94, 170, 47);
+}
+
+.button:active {
+  background-color: rgb(94, 170, 47);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button--grey {
+  background-color: $bg-color;
+  color: $content-color;
+  padding: 10px 40px;
+}
+
+.button--grey:focus,
+.button--grey:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.button--grey:active {
+  background-color: rgb(235, 235, 235);
+  color: rgba(68, 68, 68, 0.3);
+}
+
+@media (min-width: $tablet-width) {
+  .button {
+    font-size: 20px;
+  }
 }

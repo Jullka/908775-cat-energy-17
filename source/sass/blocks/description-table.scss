@@ -1,0 +1,41 @@
+.description-table {
+  width: 142px;
+  border-collapse: collapse;
+}
+
+@media (min-width: $tablet-width) {
+  .description-table {
+    width: 100%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .description-table {
+    width: 167px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .description-table__row {
+    border-bottom: 1px solid rgb(205, 205, 205);
+  }
+}
+
+.description-table__cell {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: $title-color;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .description-table__cell {
+    font-size: 16px;
+    padding: 8px 0 7px;
+  }
+}
+
+.description-table__cell:last-child {
+  text-align: right;
+}
