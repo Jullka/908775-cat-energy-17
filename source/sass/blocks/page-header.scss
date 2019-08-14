@@ -26,15 +26,24 @@
 
 @media (min-width: $desktop-width) {
   .page-header--index::before {
-    background: $base-color url(../img/index-background-desktop@1x.jpg) no-repeat;
-    background-size: auto 100%;
     content: "";
-    min-height: 696px;
+    background: url(../img/index-background-desktop@1x.jpg) no-repeat;
+    background-color: $base-color;
+    height: 696px;
     position: absolute;
     right: 0;
     top: 0;
     width: 50%;
     z-index: -1;
+    background-size: auto 697px;
+    background-position-x: right;
+  }
+}
+
+@media (min-width: $desktop-width) and (min-resolution: $retina-dpi),
+(min-width: $desktop-width) and (min-resolution: $retina-dppx) {
+  .page-header--index::before {
+    background: url(../img/index-background-desktop@2x.jpg);
   }
 }
 
