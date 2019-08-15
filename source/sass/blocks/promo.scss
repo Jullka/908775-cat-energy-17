@@ -19,7 +19,13 @@
 
 .promo {
   background: url(../img/index-background-mobile@1x.jpg) no-repeat top;
-  background-size: 320px 305px;
+}
+
+@media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+  .promo {
+    background: url(../img/index-background-mobile@2x.jpg) no-repeat top;
+    background-size: 320px 305px;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -29,7 +35,7 @@
 }
 
 .promo::before {
-  background-color: $base-color;
+  background-image: linear-gradient(to bottom, rgb(100, 168, 59) 0, rgb(100, 168, 59) 305px, transparent 305px);
   content: "";
   height: 305px;
   left: 0;
