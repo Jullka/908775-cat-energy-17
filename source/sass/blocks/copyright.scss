@@ -3,11 +3,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 14px 0;
 }
+
+@media (min-width: $tablet-width)  {
+  .copyright {
+     padding: 26px 0;
+  }
+}
+
+
 
 .copyright__link {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 16px;
   color: $content-color;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright__link {
+    width: 124px
+  }
 }

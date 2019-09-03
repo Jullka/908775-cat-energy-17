@@ -39,7 +39,7 @@
 @media (min-width: $tablet-width) {
   .product__img {
     position: absolute;
-    bottom: 310px;
+    bottom: 307px;
     left: 0;
     width: 324px;
     height: auto;
@@ -61,13 +61,14 @@
   .product__info {
     width: 249px;
     padding: 0;
-    margin: 0 0 32px;
+    margin: 0 0 35px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .product__info {
     width: 169px;
+    margin: 0 0 30px;
   }
 }
 
@@ -103,12 +104,12 @@
 
 @media (min-width: $tablet-width) {
   .product__btn {
-    width: 150px;
+    width: 198px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .product__btn {
-    width: 150px;
+    width: 118px;
   }
 }
