@@ -14,16 +14,18 @@
   }
 }
 
+.advantages {
+  margin-bottom: 17px;
+}
 @media (min-width: $tablet-width) {
   .advantages {
-    padding: 0 30px;
     counter-reset: itemNum;
     margin-bottom: 35px;
   }
 }
 
 .advantages__title {
-  margin: 17px 0 28px;
+  margin: 0 0 28px;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
@@ -32,7 +34,7 @@
 
 @media (min-width: $tablet-width) {
   .advantages__title {
-    margin: 46px 0;
+    margin: 0 0 70px;
     font-size: 60px;
     line-height: 60px;
   }
@@ -61,7 +63,7 @@
   font-family: "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   padding-left: 80px;
   position: relative;
 }
@@ -70,9 +72,9 @@
   .advantages__item {
     font-size: 16px;
     line-height: 24px;
-    margin: 25px 0 106px;
-    padding: 113px 79px 0 0;
-    width: 203px;
+    margin: 0 0 97px;
+    padding: 114px 75px 0 0;
+    width: 250px;
   }
 }
 

@@ -13,6 +13,12 @@
   text-transform: uppercase;
 }
 
+@media (min-width: $tablet-width) {
+  .button {
+    font-size: 20px;
+  }
+}
+
 .button:focus,
 .button:hover {
   background-color: rgb(94, 170, 47);
@@ -26,8 +32,22 @@
 .button--grey {
   background-color: $bg-color;
   color: $content-color;
-  padding: 10px 40px;
+  margin: 0 -20px;
 }
+
+@media (min-width: $tablet-width) {
+  .button--grey {
+    margin: 0 -40px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .button--grey {
+    margin: 0;
+  }
+}
+
 
 .button--grey:focus,
 .button--grey:hover {
@@ -39,8 +59,4 @@
   color: rgba(68, 68, 68, 0.3);
 }
 
-@media (min-width: $tablet-width) {
-  .button {
-    font-size: 20px;
-  }
-}
+

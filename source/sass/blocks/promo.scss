@@ -1,19 +1,12 @@
 .promo__container {
   position: relative;
   width: 100%;
-  padding: 0 20px;
-}
-
-@media (min-width: $tablet-width) {
-  .promo__container {
-    padding: 0 30px;
-  }
+  margin-bottom: 23px;
 }
 
 @media (min-width: $desktop-width) {
   .promo__container {
-    padding: 0 110px;
-    width: 1200px;
+    width: 1300px;
   }
 }
 
@@ -24,13 +17,20 @@
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
   .promo {
     background: url(../img/index-background-mobile@2x.jpg) no-repeat top;
-    background-size: 320px 305px;
+    background-size: 100% 305px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .promo {
     background: 0 0;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    margin-bottom: 87px;
   }
 }
 
@@ -56,7 +56,7 @@
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  padding-top: 26px;
+  padding: 26px 20px 0;
   position: relative;
   text-align: center;
 }
@@ -65,15 +65,15 @@
   .promo__wrapper {
     align-items: flex-start;
     color: $title-color;
-    padding: 0 200px 530px 90px;
+    padding: 0 200px 485px 90px;
     position: relative;
   }
 }
 
 @media (min-width: $desktop-width) {
   .promo__wrapper {
-    min-height: 572px;
-    padding: 45px 0 0 80px;
+    min-height: 490px;
+    padding: 0 0 0 96px;
     width: 50%;
   }
 }
@@ -89,6 +89,7 @@
 
 @media (min-width: $tablet-width) {
   .promo__title {
+    padding: 30px 26px 11px;
     color: $title-color;
     font-size: 60px;
     line-height: 60px;
@@ -96,10 +97,18 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .promo__title {
+    width: 420px;
+    padding: 20px 93px 0px;
+  }
+}
+
+
 .promo__content {
   font-size: 14px;
   line-height: 14px;
-  margin-top: 23px;
+  margin: 26px 5px 15px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -108,13 +117,13 @@
   .promo__content {
     font-size: 20px;
     line-height: 20px;
-    margin: 45px 0;
+    margin: 30px 28px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .promo__content {
-    margin-bottom: 50px;
+    margin: 44px 94px 53px;
   }
 }
 
@@ -136,10 +145,10 @@
 
 @media (min-width: $desktop-width) {
   .promo__img {
-    height: 499px;
-    right: -116px;
-    top: -47px;
-    width: 552px;
+    height: 494px;
+    right: -88px;
+    top: -68px;
+    width: auto;
   }
 }
 
@@ -154,6 +163,14 @@
   .promo__btn {
     font-size: 20px;
     width: auto;
-    padding: 0 25px;
+    padding: 5px 25px;
+    margin: 18px 31px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+    .promo__btn {
+  padding: 7px 25px;
+  margin: 0 95px;
   }
 }
