@@ -1,13 +1,6 @@
 .promo__container {
   position: relative;
-  width: 100%;
   margin-bottom: 23px;
-}
-
-@media (min-width: $desktop-width) {
-  .promo__container {
-    width: 1300px;
-  }
 }
 
 .promo {
@@ -17,7 +10,7 @@
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
   .promo {
     background: url(../img/index-background-mobile@2x.jpg) no-repeat top;
-    background-size: 100% 305px;
+    background-size: auto 305px;
   }
 }
 
@@ -59,6 +52,9 @@
   padding: 26px 20px 0;
   position: relative;
   text-align: center;
+  box-sizing: border-box;
+  width: 320px;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
@@ -67,6 +63,7 @@
     color: $title-color;
     padding: 0 200px 485px 90px;
     position: relative;
+    width: 768px;
   }
 }
 
@@ -75,6 +72,7 @@
     min-height: 490px;
     padding: 0 0 0 96px;
     width: 50%;
+    width: 1300px;
   }
 }
 
@@ -146,7 +144,7 @@
 @media (min-width: $desktop-width) {
   .promo__img {
     height: 494px;
-    right: -88px;
+    left: 294px;
     top: -68px;
     width: auto;
   }
@@ -155,8 +153,7 @@
 .promo__btn {
   font-size: 14px;
   line-height: 18px;
-  width: 100%;
-  padding: 0;
+  padding: 0 73px;
 }
 
 @media (min-width: $tablet-width) {

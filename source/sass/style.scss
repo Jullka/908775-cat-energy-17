@@ -1,6 +1,6 @@
 @import "variables.scss";
 @import "mixins.scss";
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import "fonts.scss";
 @import "blocks/advantages.scss";
 @import "blocks/add-product.scss";
 @import "blocks/button.scss";
@@ -44,7 +44,9 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden  {
   position: absolute;
   width: 1px;
   height: 1px;

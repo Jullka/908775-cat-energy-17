@@ -10,7 +10,6 @@
   }
 }
 
-
 .main-nav--closed .main-nav__toggle::before {
   content: "";
   position: absolute;
@@ -24,7 +23,7 @@
 
 .main-nav--opened .main-nav__toggle {
   top: 0;
-  right: 0;
+  right: 40px;
 }
 
 .main-nav--opened .main-nav__toggle::after,
@@ -74,7 +73,7 @@
 
 @media (max-width: 767px) {
  .main-nav--nojs .main-nav__list {
-      display: block;
+      display: none;
   }
 }
 

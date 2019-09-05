@@ -26,3 +26,21 @@
     width: 124px
   }
 }
+
+.copyright__link:active {
+  opacity: 0.3;
+}
+
+.copyright__link-logo .copyright__logo-svg {
+  fill: $content-color;
+}
+
+.copyright__link-logo:active .copyright__logo-svg {
+  fill: $base-color;
+  opacity: 0.3;
+}
+
+.copyright__link-logo:focus .copyright__logo-svg,
+.copyright__link-logo:hover .copyright__logo-svg {
+  fill: $base-color;
+}

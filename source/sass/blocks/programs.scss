@@ -1,19 +1,24 @@
 .programs {
   position: relative;
   padding: 0 20px;
+  width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 @media (min-width: $tablet-width) {
   .programs {
     padding: 0 30px;
     margin-bottom: 18px;
+    width: 768px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .programs {
-    padding: 0 110px;
+    padding: 0 40px;
     margin-bottom: 50px;
+    width: 1300px;
   }
 }
 
