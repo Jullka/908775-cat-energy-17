@@ -79,10 +79,14 @@
   .main-menu__link--active::after {
       background-color: $base-color;
   }
+
   .main-menu__link--index {
       color: rgb(255, 255, 255);
   }
-  .main-menu__link--index::after {
+
+ .main-menu__link--index::after {
       background-color: rgb(255, 255, 255);
   }
 }
+
+
