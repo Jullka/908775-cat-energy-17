@@ -7,7 +7,8 @@
   background: url(../img/index-background-mobile@1x.jpg) no-repeat top;
 }
 
-@media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+@media (min-resolution: $retina-dpi),
+(min-resolution: $retina-dppx) {
   .promo {
     background: url(../img/index-background-mobile@2x.jpg) no-repeat top;
     background-size: auto 305px;
@@ -23,7 +24,7 @@
 
 @media (min-width: $desktop-width) {
   .promo {
-    margin-bottom: 87px;
+    margin-bottom: 113px;
   }
 }
 
@@ -70,7 +71,7 @@
 @media (min-width: $desktop-width) {
   .promo__wrapper {
     min-height: 490px;
-    padding: 0 0 0 96px;
+    padding: 48px 0 0 28px;
     width: 50%;
     width: 1300px;
   }
@@ -98,7 +99,7 @@
 @media (min-width: $desktop-width) {
   .promo__title {
     width: 420px;
-    padding: 20px 93px 0px;
+    padding: 0px 90px 5px;
   }
 }
 
@@ -121,7 +122,7 @@
 
 @media (min-width: $desktop-width) {
   .promo__content {
-    margin: 44px 94px 53px;
+    margin: 37px 91px 51px;
   }
 }
 
@@ -144,8 +145,8 @@
 @media (min-width: $desktop-width) {
   .promo__img {
     height: 494px;
-    left: 294px;
-    top: -68px;
+    left: 219px;
+    top: -41px;
     width: auto;
   }
 }
@@ -166,8 +167,8 @@
 }
 
 @media (min-width: $desktop-width) {
-    .promo__btn {
-  padding: 7px 25px;
-  margin: 0 95px;
+  .promo__btn {
+    padding: 7px 25px;
+    margin: 0 92px;
   }
 }

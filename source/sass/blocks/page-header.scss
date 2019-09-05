@@ -8,6 +8,7 @@
   width: 320px;
   box-sizing: border-box;
 }
+
 @media (min-width: $tablet-width) {
   .page-header__container {
     padding: 0 30px;
@@ -21,8 +22,8 @@
 @media (min-width: $desktop-width) {
   .page-header__container {
     padding: 0 40px;
-    margin-top: 52px;
-    margin-bottom: 65px;
+    margin-top: 43px;
+    margin-bottom: 52px;
     width: 1300px;
   }
 }
@@ -42,12 +43,12 @@
 
 @media (min-width: $tablet-width) {
   .page-header__logo-img {
-    width: 175px;
+    width: 173px;
     height: 60px;
   }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: $desktop-width) {
   .page-header__logo-img {
     width: 202px;
   }
@@ -75,7 +76,7 @@
 
 
 @media (min-width: $tablet-width) {
-    .page-header__logo-image {
+  .page-header__logo-image {
     width: 174px;
     margin-top: -3px;
   }
