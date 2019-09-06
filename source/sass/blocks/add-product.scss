@@ -5,7 +5,7 @@
 
 @media (min-width: $tablet-width) {
   .add-product {
-  margin-bottom: 80px;
+    margin-bottom: 75px;
   }
 }
 
@@ -59,7 +59,7 @@
 }
 
 .add-product__header {
-  padding: 0 20px;
+  padding: 0 20px 0 0px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
@@ -78,7 +78,7 @@
     font-size: 36px;
     line-height: 36px;
     padding: 0 36px 0 36px;
-    margin: 0 auto 80px 30px;
+    margin: 0 auto 80px 1px;
     background-color: rgb(255, 255, 255);
   }
 }
@@ -86,7 +86,7 @@
 @media(min-width: $desktop-width) {
   .add-product__header {
     padding: 0 40px;
-    margin: 0 auto 80px;
+    margin: 0 auto 80px -42px;
   }
 }
 
@@ -97,11 +97,10 @@
 
 @media(min-width: $desktop-width) {
   .add-product__wrapper {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+  }
 }
-}
-
 
 .add-product__list {
   list-style: none;
@@ -111,7 +110,7 @@
 
 @media(min-width: $tablet-width) {
   .add-product__list {
-  margin-bottom: 70px;
+    margin-bottom: 70px;
   }
 }
 
@@ -180,7 +179,6 @@
   }
 }
 
-
 .add-product__count,
 .add-product__price {
   font-family: "Arial", sans-serif;
@@ -198,7 +196,6 @@
     text-align: right;
   }
 }
-
 
 .add-product__price {
   margin: 0 0 0 auto;
@@ -223,11 +220,9 @@
   .add-product__header::before {
     display: none;
   }
-
   .add-product__count {
     margin-left: auto;
   }
-
   .add-product__order {
     margin-top: 0;
     margin-bottom: 27px;
@@ -240,12 +235,10 @@
     width: 245px;
     margin-left: unset;
   }
-
   .add-product__order {
     width: 245px;
     margin: 0 0 0 auto;
   }
-
   .add-product__order-gift {
     margin-left: auto;
   }
@@ -259,19 +252,21 @@
 }
 
 @media (min-width: $tablet-width) {
-  .add-product__btn {
+  .add-product__item .add-product__btn {
     font-size: 16px;
     margin-bottom: 26px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .add-product__btn {
+  .add-product__item .add-product__btn {
+    font-size: 16px;
+    margin-bottom: 26px;
     margin-left: auto;
     margin-bottom: 0;
     width: 196px;
-    font-size: 16px;
   }
 }
+
 
 

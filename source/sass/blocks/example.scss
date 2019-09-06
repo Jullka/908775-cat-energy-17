@@ -5,22 +5,23 @@
 @media (min-width: $tablet-width) {
   .example {
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 57%, $bg-color 57%, $bg-color 100%);
+    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 57%, $bg-color 50%, $bg-color 100%);
     border-top: 1px solid rgb(230, 230, 230);
   }
 }
 
 @media (min-width: $desktop-width) {
-   .example {
-    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 29%, $bg-color 29%, $bg-color 100%);
+  .example {
+    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 27%, $bg-color 26%, $bg-color 100%);
     display: flex;
     min-height: 590px;
     border: 0;
+    padding-bottom: 30px;
   }
 }
 
 .example__container {
-  padding: 0 20px 34px;
+  padding: 0 20px 36px;
   margin: 0 auto;
   width: 320px;
   display: flex;
@@ -63,7 +64,7 @@
   .example__title {
     font-size: 60px;
     line-height: 60px;
-    padding-top: 42px;
+    padding-top: 44px;
     margin-bottom: 65px;
   }
 }
@@ -97,7 +98,7 @@
   .example__content {
     margin-bottom: 68px;
     width: 435px;
-}
+  }
 }
 
 
@@ -187,11 +188,11 @@
 
 @media (min-width: $tablet-width) {
   .example-item__title {
-      font-size: 14px;
-      line-height: 14px;
-      white-space: nowrap;
-      bottom: -8px;
-      background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+    bottom: -8px;
+    background-color: rgb(255, 255, 255);
   }
 }
 
@@ -204,22 +205,22 @@
 @media (min-width: $tablet-width) {
   .example__before-after {
     position: relative;
-    height: 700px;
+    height: 590px;
   }
 }
+
 
 .example__img {
   left: -19px;
   top: -3px;
-  margin-top: 37px;
-  margin-bottom: 25px;
+  margin: 37px 0 25px -20px;
 }
 
 @media (min-width: $tablet-width) {
   .example__img {
     width: 690px;
     height: auto;
-    left: 6px;
+    left: 17px;
     top: 3px;
     margin: 53px auto 23px;
     position: absolute;
@@ -228,7 +229,7 @@
 
 @media (min-width: $desktop-width) {
   .example__img {
-    left: 6px;
+    left: 134px;
     top: -30px;
     margin: 0 0 10px;
   }
@@ -246,16 +247,16 @@
   }
 }
 
-  .example__img--after {
-    display: none;
-  }
+.example__img--after {
+  display: none;
+}
 
-  @media (min-width: $tablet-width) {
-    .example__img--after {
-      display: block;
-      clip: rect(auto, auto, auto, 365px);
-    }
+@media (min-width: $tablet-width) {
+  .example__img--after {
+    display: block;
+    clip: rect(auto, auto, auto, 338px);
   }
+}
 
 @media (min-width: $desktop-width) {
   .example__img--after {
@@ -298,8 +299,8 @@
 
 @media (min-width: $tablet-width) {
   .example__img-wrapper {
-      width: 690px;
-      overflow: hidden;
+    width: 690px;
+    overflow: hidden;
   }
 }
 
@@ -314,14 +315,6 @@
 
 @media (min-width: $desktop-width) {
   .example__price-value {
-      margin-left: 59px;
+    margin-left: 59px;
   }
 }
-
-
-
-
-
-
-
-

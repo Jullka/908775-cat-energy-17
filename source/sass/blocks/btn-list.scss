@@ -3,8 +3,8 @@
   padding: 0;
   display: flex;
   align-items: baseline;
-  width: 193px;
-  margin: 5px auto;
+  width: 19px;
+  margin: 0 40px;
 }
 
 .btn-list__button {
@@ -44,22 +44,18 @@
     justify-content: space-between;
     align-items: center;
   }
-
   .btn-list__button {
     font-size: 20px;
     border-bottom: 1px dotted rgb(190, 190, 190);
     padding-bottom: 6px;
   }
-
   .btn-list__button:focus,
   .btn-list__button:hover {
     border-bottom: 1px solid rgb(152, 152, 152);
   }
-
   .btn-list__button:active {
     border-bottom: none;
   }
-
   .btn-list__scale {
     width: 428px;
     height: 6px;
@@ -67,13 +63,11 @@
     border: 0;
     margin-top: -5px;
   }
-
   .btn-list__bar {
     background-color: transparent;
     height: 34px;
     width: 50%;
   }
-
   .btn-list__bar::after,
   .btn-list__bar::before {
     content: "";
@@ -81,7 +75,6 @@
     border-radius: 50%;
     cursor: pointer;
   }
-
   .btn-list__bar::before {
     z-index: 2;
     width: 8px;
@@ -90,7 +83,6 @@
     right: -5px;
     top: -4px;
   }
-
   .btn-list__bar::after {
     top: -18px;
     right: -18px;
@@ -101,12 +93,10 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
   }
-
   .btn-list__bar:focus::after,
   .btn-list__bar:hover::after {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .25);
   }
-
   .btn-list__bar:active::after {
     border: 2px solid $base-color;
   }
@@ -114,11 +104,9 @@
 
 @media (min-width: $desktop-width) {
   .btn-list {
-    width: 530px;
     margin-left: 86px;
-    margin-top: 380px;
+    margin-top: 490px;
   }
-
   .btn-list__button--after {
     margin-left: 7px;
   }
