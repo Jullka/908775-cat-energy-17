@@ -32,20 +32,17 @@ gulp.task("css", function () {
     .pipe(gulp.dest("build/css"))
 });
 
-gulp.task("sprite", function (){
+gulp.task("sprite", function () {
   return gulp.src("source/img/icon-*.svg")
     .pipe(svgstore({
       inlineSvg: true
     }))
-    .pipe(rename(sprite.svg))
+    .pipe(rename("icon-sprite.svg"))
     .pipe(gulp.dest("build/img"));
 })
 
 gulp.task("html", function () {
   return gulp.src("source/*.html")
-    .pipe(posthtml([
-      include()
-    ]))
     .pipe(gulp.dest("build"));
 });
 
