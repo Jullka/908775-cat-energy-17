@@ -152,6 +152,14 @@
   }
 }
 
+.example__btn {
+  flex-shrink: 0;
+}
+
+.example__desktop-wrapper:not(.example__before-after) {
+  flex-shrink: 0;
+}
+
 .example-item__value {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
@@ -207,7 +215,6 @@
     height: 590px;
   }
 }
-
 
 .example__img {
   left: -19px;
