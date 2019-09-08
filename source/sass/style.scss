@@ -1,5 +1,4 @@
 @import "variables.scss";
-@import "mixins.scss";
 @import "fonts.scss";
 @import "blocks/advantages.scss";
 @import "blocks/add-product.scss";
@@ -45,8 +44,8 @@ a {
 }
 
 .visually-hidden:not(:focus):not(:active),
-input[type='checkbox'].visually-hidden,
-input[type='radio'].visually-hidden  {
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -58,6 +57,3 @@ input[type='radio'].visually-hidden  {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
-
