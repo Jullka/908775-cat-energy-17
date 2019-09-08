@@ -1,4 +1,5 @@
 .main-menu {
+  display: none;
   list-style: none;
   padding: 0;
   margin: 0 0 2px;
@@ -34,7 +35,6 @@
   border-top: 1px solid rgb(230, 230, 230);
 }
 
-
 @media (min-width: $tablet-width) {
   .main-menu__link {
     font-family: "Oswald", "Arial", sans-serif;
@@ -54,7 +54,6 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .main-menu__link:focus,
   .main-menu__link:hover {
     opacity: 0.6;
@@ -64,8 +63,9 @@
     opacity: 0.3;
   }
 
-  .main-menu__link--active {
+  .main-menu .main-menu__link--active {
     position: relative;
+    opacity: 1;
   }
 
   .main-menu__link--active::after {

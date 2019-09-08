@@ -26,7 +26,7 @@
 }
 
 .program--slim::after {
-  background-image: url(../img/icon-cat-slim.svg);
+  background-image: url("../img/icon-cat-slim.svg");
   background-repeat: no-repeat;
   left: 30px;
   width: 45px;
@@ -44,7 +44,7 @@
 }
 
 .program--pro::after {
-  background-image: url(../img/icon-cat-pro.svg);
+  background-image: url("../img/icon-cat-pro.svg");
   background-repeat: no-repeat;
   content: "";
   height: 30px;
@@ -164,7 +164,6 @@
     padding-left: 165px;
     width: auto;
     margin-bottom: 75px;
-
   }
 }
 
@@ -214,7 +213,7 @@
 }
 
 .program__link::after {
-  background: url(../img/icon-right-arrow-long.svg) no-repeat left center;
+  background: url("../img/icon-right-arrow-long.svg") no-repeat left center;
   background-size: contain;
   content: "";
   height: 11px;
@@ -227,7 +226,7 @@
 
 .program__link:hover::after,
 .program__linkfocus::after {
-  background-image: url(../img/icon-right-arrow-verylong.svg);
+  background-image: url("../img/icon-right-arrow-verylong.svg");
 }
 
 .program__link:active {
@@ -239,13 +238,15 @@
     font-size: 20px;
     line-height: 20px;
   }
+}
 
-  @media (min-width: $desktop-width) {
-    .program__link {
-      margin-bottom: 60px;
-    }
+@media (min-width: $desktop-width) {
+  .program__link {
+    margin-bottom: 60px;
   }
+}
 
+@media (min-width: $desktop-width) {
   .program__link::after {
     margin-left: 23px;
   }

@@ -5,8 +5,6 @@
   margin: 0 auto;
 }
 
-
-
 @media (min-width: $tablet-width) {
   .catalog__container {
     padding: 0 30px;
@@ -30,13 +28,13 @@
   .catalog {
     padding-top: 17px;
     border: 0;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .catalog {
-    margin-bottom: 22px;
+    margin-bottom: 34px;
   }
 }
 
@@ -46,9 +44,8 @@
   line-height: 60px;
   font-weight: 400;
   color: $title-color;
-  margin: 0 auto 30px;
-  padding: 16px 0 0;
-  border-top: 1px solid rgb(230, 230, 230);
+  margin: 0 auto 28px;
+  padding: 12px 0 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -82,18 +79,19 @@
   text-align: center;
   margin: 0;
   border-top: 1px solid rgb(237, 237, 237);
-  padding: 23px 20px 10px;
+  padding: 25px 19px 10px;
 }
 
 @media (min-width: $tablet-width) {
   .catalog__plus {
     padding: 58px 76px 10px;
+    border: 1px solid rgb(237, 237, 237);
   }
 }
 
 @media (min-width: $desktop-width) {
   .catalog__plus {
-    padding: 55px 37px 10px;
+    padding: 60px 36px 10px;
   }
 }
 

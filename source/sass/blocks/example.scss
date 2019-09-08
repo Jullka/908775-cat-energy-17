@@ -90,7 +90,7 @@
     font-size: 16px;
     line-height: 24px;
     width: 700px;
-    margin-bottom: 52px
+    margin-bottom: 52px;
   }
 }
 
@@ -179,7 +179,6 @@
   min-width: 80px;
   position: absolute;
   bottom: -16px;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   left: 50%;
   background-color: $bg-color;
