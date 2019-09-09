@@ -480,8 +480,6 @@
   border-radius: 50%;
 }
 
-
-
 @media (min-width: $tablet-width) {
   .form__input-radio:checked + label::after {
     width: 18px;
