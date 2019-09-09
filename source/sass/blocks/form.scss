@@ -455,10 +455,12 @@
 
 .form__input-radio:disabled + .form__label {
   opacity: 0.3;
+  pointer-events: none;
 }
 
 .form__input-checkbox:disabled + .form__label {
   opacity: 0.3;
+  pointer-events: none;
 }
 
 .form__label--checkbox:active::after,
