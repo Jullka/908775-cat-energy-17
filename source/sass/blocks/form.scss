@@ -406,7 +406,6 @@
   }
 }
 
-
 .form__label--checkbox::before {
   top: 0;
 }
@@ -473,25 +472,9 @@
   border-radius: 50%;
 }
 
-.form__input-radio:disabled + label::after {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: -24px;
-  box-sizing: border-box;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-.form__item input[type="checkbox"]:disabled + label::before,
-.form__item input[type="radio"]:disabled + label::before {
+.form__item input[type="checkbox"]:disabled,
+.form__item input[type="radio"]:disabled {
   box-shadow: none;
-  color: rgba(0, 0, 0, 1);
-}
-
-.form__label--checkbox:disabled,
-.form__label--radio:disabled {
   color: rgba(0, 0, 0, 1);
 }
 

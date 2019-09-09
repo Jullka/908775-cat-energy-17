@@ -152,6 +152,14 @@
   }
 }
 
+.example__btn {
+  flex-shrink: 0;
+}
+
+.example__desktop-wrapper:not(.example__before-after) {
+  flex-shrink: 0;
+}
+
 .example-item__value {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
@@ -208,7 +216,6 @@
   }
 }
 
-
 .example__img {
   left: -19px;
   top: -3px;
@@ -228,7 +235,7 @@
 
 @media (min-width: $desktop-width) {
   .example__img {
-    left: 134px;
+    left: -40px;
     top: -30px;
     margin: 0 0 10px;
   }
