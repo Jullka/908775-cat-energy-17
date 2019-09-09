@@ -453,6 +453,14 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+.form__input-radio:disabled + .form__label {
+  opacity: 0.3;
+}
+
+.form__input-checkbox:disabled + .form__label {
+  opacity: 0.3;
+}
+
 .form__label--checkbox:active::after,
 .form__label--checkbox:active::before,
 .form__label--radio:active::after,
@@ -472,11 +480,7 @@
   border-radius: 50%;
 }
 
-.form__item input[type="checkbox"]:disabled,
-.form__item input[type="radio"]:disabled {
-  box-shadow: none;
-  color: rgba(0, 0, 0, 1);
-}
+
 
 @media (min-width: $tablet-width) {
   .form__input-radio:checked + label::after {

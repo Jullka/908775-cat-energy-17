@@ -1,6 +1,6 @@
 .social {
   padding: 24px 0 15px;
-  min-width: 130px;
+  min-width: 280px;
   border-top: 1px solid rgb(217, 217, 217);
   border-bottom: 1px solid rgb(217, 217, 217);
 }
@@ -20,6 +20,10 @@
   justify-content: space-between;
   width: 130px;
   margin: 0 auto;
+}
+
+.social__item {
+  margin-left: 15px;
 }
 
 .social__svg {
